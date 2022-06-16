@@ -1,0 +1,709 @@
+/*
+    Theme Name: numnat
+    Description: Customized child theme of GeneratePress for Numenat
+    Author: Blement
+    Author URI: https://clement-grouzard.com
+    Template: generatepress
+    Version: 0.0.1
+    Requires: 5.9
+    Require PHP: 8.1
+    Tested up to: 6.0
+    Licence: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain: numnat
+*/
+
+footer.site-info {
+    display:none;
+}
+
+button {
+    width: 270px;
+    margin: 10px 38% 0 38%;
+    
+}
+
+.inside-article{
+    margin-bottom: -20px;
+} 
+
+h5{
+    margin-bottom: -20px;
+}
+
+.button-link {
+    display:block;
+    text-align: center;
+    width: 270px;
+    margin: 10px 38% 10px 31%;
+}
+
+#accueil > h2:nth-child(1) {
+    margin-top: 25px;
+   }
+   
+
+/* style du site numenat.fr 
+
+style du header */
+.slick-track 
+{
+	margin-left: 41%;
+}
+
+.inside-header
+{
+		margin: 0px 115px -20px 40px;
+}
+.page-id-428 #menu-item-1022
+{
+ display: none;
+}
+
+/* style du body */
+body
+{
+	background-color: #ffffff;
+}
+
+h2
+{
+		font-weight: bold;
+}
+h5 
+{
+	font-size: 22px;
+}
+p
+{
+	color: #2d2d2d;
+}
+/*.wp-block-columns p
+{
+	color: #2d2d2d;
+}*/
+.wp-block-columns h2 
+{
+	margin: 0px;
+}
+.qui-image-droite 
+{
+	margin-right: 250px;
+}
+@media screen and (max-width: 1470px)
+{
+	p.formations-texte-droite 
+	{
+		margin: auto;
+	}
+}
+@media screen and (max-width: 676px)
+{
+	.attachment-full 
+	{
+		margin: 0;
+	}
+	h2
+	{
+		margin: 0px;
+	}
+	h2.sous-titres-nos-formations 
+	{
+		font-size: 30px;
+		margin: 0px;
+		text-align: center;
+	}
+	div.wp-block-columns 
+	{
+		display: flex;
+		align-items: center;
+		margin: 20px 0;
+	} 
+	p.formations-texte-droite 
+	{
+		margin: auto;
+	}
+	.formations-texte-droite a
+	{
+		font-size: 18px;
+	}
+	.form-button a 
+	{
+		font-size: 18px;
+	}
+	img 
+	{
+		margin: auto;
+	}
+	img.wp-image-669 
+	{
+		margin-left: -75px;
+	}
+	img.wp-image-671 
+	{
+		margin-left: -75px;
+	}
+	img.wp-image-670 
+	{
+		margin-left: -75px;
+	}
+	img.wp-image-672 
+	{
+		margin-left: -75px;
+	}
+	
+	/*pages formation*/
+	.wp-block-column-topright>details>summary 
+	{
+		margin: auto;
+	}
+	.wp-block-column-botright>details>summary 
+	{
+		margin:auto;
+	}
+}	
+h4 a
+{
+	font-size: 25px;
+}
+p
+{
+	font-size: 22px;
+	color: #2d2d2d;
+}
+.inside-navigation a
+{
+	font-size: 20px;
+}
+
+/*featured image */
+.attachment-full
+{
+ max-height: auto;
+ width: 100%;
+}	
+
+.inside-navigation 
+{
+ margin-bottom: -20px;
+}
+.wp-block-columns 
+{
+ margin-left: 100px;
+ margin-right: 100px;
+}
+.moyens-titre 
+{
+	margin-left: 100px;
+}
+
+/* image gallery */
+
+/*rétablit les marges pour rendre le contenu visible aux utilisateurs mobiles */
+@media screen and (max-width: 767px){
+	.wp-block-columns 
+	{
+ 	margin: 25px;
+ 	}
+}
+
+/* style des liens */
+a 
+{
+	text-decoration: none;
+	color: #787878;
+	font-weight: bold;
+}
+
+a:hover
+{
+	color: #25457b;
+	overflow: hidden;
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: transform .4s;
+}
+
+/* style des arrière-plans */
+
+/*Accueil*/
+
+/*#post-428 .entry-content
+{
+    background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+  background-position: 500px 50px;
+	background-size: 1400px
+}*/
+
+/*Nos Qui-sommes-nous ?*/
+#post-423 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*nos-formations*/
+#post-424 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*nos-modalités*/
+#post-852 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*actualités*/
+#post-684 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*nos solutions informatiques*/
+#post-1662 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*contactez-nous*/
+#post-427 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*formulaire-formations*/
+#post-108 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*règlement intérieur + CVG + politique de confidentialité*/
+#post-3 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*les essentiels*/
+#post-286 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*libreoffice*/
+#post-289 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*pack-office*/
+#post-341 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Excel Expert*/
+#post-295 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Google Workspace*/
+#post-297 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*outils colooboratifs*/
+#post-383 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Site Internet*/
+#post-151 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Site Internet et réseaux sociaux*/
+#post-402 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Site Internet et communication*/
+#post-445 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Réseaux sociaux et outils collaboratifs*/
+#post-450 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Photoshop*/
+#post-452 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-2-e1649864741939.png");
+	background-repeat: no-repeat;
+    background-position: 0px 400px;
+	background-size: 900px
+}
+
+/*GIMP*/
+#post-454 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Illustrator*/
+#post-458 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*DIHS*/
+#post-460 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*Anglais TOEIC*/
+#post-167 .entry-content
+{
+background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*le déroulement de de votre formation*/
+#post-1048 .entry-content 
+{
+ background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*moyen mis à disposition*/
+#post-1080 .entry-content 
+{
+ background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px -10px;
+	background-size: 1000px
+}
+
+/*choisir sa formation*/
+#post-843 .entry-content 
+{
+    background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+    background-position: 500px 400px;
+	background-size: 1400px
+}
+
+/*page nos solutions informatiques*/
+#post-426 .entry-content
+{
+	background-image: url(http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-e1649854192797.png);
+	background-repeat: no-repeat;
+ 	background-position: -380px 30px;
+ 	background-size:  1110px;
+	background-origin: border-box;
+}
+
+/* Nos Partenaires*/
+
+/*cadre du logo Formule PC*/
+.wp-image-2439
+{
+ border: solid 2px #5c7538;
+}
+
+/*cadre du logo 01Formatic*/
+.wp-image-2443
+{
+	border: solid 2px #5c7538;
+}
+
+/*cadre du logo B&S*/
+.wp-image-2444
+{
+ border: solid 2px #5c7835;
+
+}
+.wp-block-spacer-partenaires
+{
+	border-top: solid 2px #787878;
+}
+
+/* style de la page "Qui sommes-nous ?" */
+.wp-image-2485
+{
+ margin-top: 160px;
+}
+.wp-image-2486 
+{
+ margin: auto;
+}
+.wp-image-2487 
+{
+ margin-top: 120px;
+}
+
+.wp-image-1063
+{
+	margin-left: 150px;
+}
+
+/*style des textes de la page "nos formations"*/
+.sous-titres-nos-formations 
+{
+	margin-left: 250px;
+}
+.formations-texte-droite 
+{
+	margin-left: -170px
+}
+.formations-marge 
+{
+	margin-left: 150px
+}
+
+/*Style du footer*/
+.footer-widgets-container 
+{
+	background-image: url("http://numenaw.cluster030.hosting.ovh.net/GAILLARD/wp-content/uploads/2022/04/QRCNUMENAT-fond-image-1.png");
+	background-repeat: no-repeat;
+	background-position: 850px 90px;
+	background-size: 700px;
+}
+.footer-widget-1 
+{
+	margin-left: 115px;
+}
+.footer-contact a 
+{
+	font-weight: normal;
+	color: black;
+}
+.contact-mel a  
+{
+	font-weight: normal;
+	color: black;
+}
+.has-text-align-left.contact-mel {
+ font-size: 30px;
+ margin: -70px 0 0 25px;
+}
+.footer-widget-2
+{
+	margin: 140px 0px 0px 50px;
+}
+.footer-widget-3 
+{
+	margin-right: 115px;
+}
+
+@media screen and (max-width: 767px) {
+	.footer-widget-1 {
+		margin: 0px;
+	}
+	.footer-widget-2{
+		margin: 0px;
+	}
+	.footer-widget-3 
+	{
+		margin: 0px;
+	}
+}
+.copyright-bar 
+{
+	display: none;
+}
+.wp-image-2035 
+{
+ margin-left: -20px;
+} /* centre le logo*/
+
+/* retrait de la barre de pied de page */
+.inside-site-info
+{
+	display: none;
+} 
+/* Alignement du responsive footer avec le responsive du main : les menus déroulant se placent en colonne, au même moment que les widgets du footer se placent en colonnes */
+@media screen and (max-width: 767px)
+{
+	.wp-block-columns
+	{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	}
+}
+.entry-meta 
+{
+	display: none;
+}
+h4 strong 
+{
+color: #527048;
+}
+.wp-image-993 
+{
+	margin-left: 10px;
+}
+
+/* style des menus déroulants*/
+
+/* change le sens de ::marker avec le text */
+summary
+{
+	text-align: right;
+	direction: rtl;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 15px 80px 15px;
+}
+summary:hover
+{
+	color: #25457b;
+}
+.wp-block-column-topright
+{
+	background-color: #bdc5d6;
+}
+.wp-block-column-botright
+{
+	background-color: #bdc5d6;
+	margin-bottom: 50px;
+}
+@media screen and (max-width: 767px)
+{
+	.wp-block-column-botright
+	{
+	background-color: #bdc5d6;
+	padding-bottom: 70px;
+	}
+}
+
+/*style du bouton de demande de formation */
+
+.form-button
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+  background: #cde1c7;
+  width: 100%;
+  left: 0px;
+  top: -15px;
+  height: 100px;	
+}
+
+/*style du lien vers les pages PDF */
+.wp-block-file 
+{
+ font-size: 22px;
+	background: #cde1c7;
+  width: 100%;
+  left: 0px;
+  top: -15px;
+  height: 100px;
+	margin-bottom: 30px
+}
+@media screen and (max-width: 767px) 
+{
+	.form-button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		width: 100%;
+	}
+	.wp-block-spacer
+	{
+  display: none;
+	} /*retirer cette règle crée un espace malheureux dans la version mobile*/
+}
+
+/*Style du message de confirmation */
+.everest-forms-notice
+{
+ margin-top: 150px;
+}
+
+/* alignement texte des toggles */
+.wp-block-toggles__content
+{
+	margin-right: 80px;
+}
